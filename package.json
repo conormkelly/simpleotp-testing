@@ -1,0 +1,22 @@
+{
+  "name": "simpleotp-delta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "conor",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.0.0",
+    "sinon": "^8.1.0"
+  },
+  "dependencies": {
+    "moment": "^2.24.0",
+    "simpleotp": "^0.7.7"
+  }
+}
